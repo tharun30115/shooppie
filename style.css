@@ -329,3 +329,102 @@
   line-height: 1.8;
   margin-block: 20px 45px;
 }
+
+.footer {
+    position: relative;
+    background-color: var(--bg-gainsboro);
+    padding-block-start: 160px;
+  }
+  
+  .footer-top {
+    display: grid;
+    gap: 30px;
+    font-size: var(--fontSize-8);
+    line-height: 1.7;
+    margin-block-end: 60px;
+  }
+  
+  .footer .logo { margin-block-end: 35px; }
+  
+  .social-list {
+    display: flex;
+    gap: 10px;
+    margin-block-start: 30px;
+  }
+  
+  .social-link {
+    background-color: var(--bg-white);
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border-radius: var(--radius-circle);
+    border: 2px solid var(--border-eerie-black);
+    box-shadow: var(--shadow-3);
+    transition: var(--transition-1);
+  }
+  
+  .social-link:is(:hover, :focus-visible) {
+    box-shadow: none;
+    color: var(--text-orange-crayola);
+    transform: translateY(-2px);
+    border-color: currentColor;
+  }
+  
+  .footer-list-title {
+    font-size: var(--fontSize-10);
+    margin-block-end: 30px;
+  }
+  
+  address.footer-text { margin-block-end: 15px; }
+  
+  .input-field {
+    background-color: var(--bg-white);
+    box-shadow: var(--shadow-2);
+    padding: 15px 30px;
+    border: 2px solid var(--border-eerie-black);
+    margin-block-end: 25px;
+    outline: none;
+    transition: var(--transition-1);
+  }
+  
+  .input-field:focus { box-shadow: none; }
+  
+  .footer .btn {
+    font-size: 1.6rem;
+    padding-inline: 40px;
+  }
+  
+  .footer-bottom .wrapper {
+    border-block-end: 2px solid var(--border-eerie-black);
+    padding-block-end: 15px;
+  }
+  
+  .link-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 30px;
+    margin-block-end: 15px;
+  }
+  
+  .footer-bottom-link {
+    font-size: var(--fontSize-11);
+    font-weight: var(--weight-semiBold);
+    text-transform: uppercase;
+    transition: var(--transition-1);
+  }
+  
+  .footer-bottom-link:is(:hover, :focus-visible) { color: var(--text-orange-crayola); }
+  
+  .copyright {
+    padding-block: 30px;
+    font-size: var(--fontSize-8);
+    text-align: center;
+  }
+  
+  .footer .shape-1 {
+    display: block;
+    top: 0;
+    right: 0;
+  }
