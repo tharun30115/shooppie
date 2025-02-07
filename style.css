@@ -271,3 +271,61 @@
     gap: 4px;
     padding: 25px 20px;
   }
+
+
+
+  .hero {
+    background-color: var(--bg-wild-blue-yonder);
+    padding-block: 130px 75px;
+  }
+  
+  .hero .container {
+    display: grid;
+    gap: 50px;
+  }
+  
+  .hero-subtitle { font-size: var(--fontSize-4); }
+  
+  .hero-title { margin-block: 16px 30px; }
+  
+  .hero-text {
+    font-size: var(--fontSize-8);
+    line-height: 2.1;
+    margin-block-end: 16px;
+  }
+  
+  .hero-banner {
+    max-width: max-content;
+    margin-inline: auto;
+  }
+
+
+
+  
+.section.feature { padding-block-start: 0; }
+
+.feature-list {
+  display: grid;
+  gap: 60px;
+  margin-block-end: 60px;
+}
+
+.feature .btn { margin-inline: auto; }
+
+
+.offer { padding-block: 100px; }
+
+.offer-card {
+  background-color: var(--bg-white);
+  border: 2px solid var(--border-eerie-black);
+  box-shadow: var(--shadow-2);
+  padding: 80px 30px;
+}
+
+.offer-card .card-title { font-size: var(--fontSize-1); }
+
+.offer-card .card-text {
+  font-size: var(--fontSize-8);
+  line-height: 1.8;
+  margin-block: 20px 45px;
+}
